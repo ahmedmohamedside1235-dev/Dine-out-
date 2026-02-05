@@ -3,7 +3,7 @@
     /* *media query for header */
 
     /* *global anchor */
-    a {
+    a.anchor {
         padding: 5px 15px;
         font-size: 12px;
     }
@@ -169,7 +169,7 @@
     /* *media query for header */
 
     /* *global anchor */
-    a {
+    a.anchor {
         padding: 8px 24px;
         font-size: 16px;
     }
@@ -189,7 +189,7 @@
     }
 
     /* *second slide */
-    header .carousel-inner .carousel-item:nth-of-type(2) .content .part1 .img {
+    header .carousel-inner .carousel-item:nth-of-type(2) .content .row .part1 .image {
         width: 35%;
     }
 
@@ -197,9 +197,13 @@
         font-size: 60px;
     }
 
-    /* *second slide */
     header .carousel-inner .carousel-item:nth-of-type(3) .content .part2 .row .item img {
         width: 60%;
+    }
+
+    /* *third slide */
+    header .carousel-inner .carousel-item:nth-of-type(3) .content .row .part2 h2 {
+        font-size: 25px;
     }
 
     /* *media query for section About */
@@ -245,7 +249,7 @@
         width: 40%;
     }
 
-    /* *third slide */  
+    /* *third slide */
     header .carousel-inner .carousel-item:nth-of-type(3) .content .row .part2 h2 {
         font-size: 25px;
     }
