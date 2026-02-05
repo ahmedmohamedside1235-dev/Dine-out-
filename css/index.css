@@ -434,6 +434,10 @@ header .carousel-inner .carousel-item:nth-of-type(3) .content .part2 .row .item 
     opacity: 0;
 }
 
+header .carousel-inner .carousel-item:nth-of-type(3) .content .part2 .row .item img {
+    width: 75%;
+}
+
 header .carousel-inner .carousel-item:nth-of-type(3).active .content .part2 .row div[class*="offset"] .item {
     transition-delay: 0.2s;
 }

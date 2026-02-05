@@ -197,6 +197,11 @@
         font-size: 60px;
     }
 
+    /* *second slide */
+    header .carousel-inner .carousel-item:nth-of-type(3) .content .part2 .row .item img {
+        width: 60%;
+    }
+
     /* *media query for section About */
     #About .content h3.head {
         font-size: 20px;
@@ -236,7 +241,11 @@
         margin: auto;
     }
 
-    /* *third slide */
+    header .carousel-inner .carousel-item:nth-of-type(3) .content .part2 .row .item img {
+        width: 40%;
+    }
+
+    /* *third slide */  
     header .carousel-inner .carousel-item:nth-of-type(3) .content .row .part2 h2 {
         font-size: 25px;
     }
@@ -281,6 +290,10 @@
 
     header .carousel-inner .carousel-item:nth-of-type(2) .content .row .part1 .image {
         width: 50%;
+    }
+
+    header .carousel-inner .carousel-item:nth-of-type(3) .content .part2 .row .item img {
+        width: 60%;
     }
 
     header .carousel-inner .carousel-item:nth-of-type(3) .content .part2 img {
